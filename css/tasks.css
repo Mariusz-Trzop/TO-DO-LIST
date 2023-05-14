@@ -3,3 +3,49 @@
     margin: 0;
     padding: 0;
 }
+
+.tasks__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 15px;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tasks__content--done {
+    text-decoration: line-through;
+}
+
+.tasks__button {
+    border: none;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.tasks__button--toggleDone {
+    background: #1f7a1f;
+}
+
+.tasks__button--toggleDone:hover {
+    background: #2aa22a;
+}
+
+.tasks__button--toggleDone:active {
+    background: #33cc33;
+}
+
+.tasks__button--remove {
+    background: #ff0000;
+}
+
+.tasks__button--remove:hover {
+    background: #e6193c;
+}
+
+.tasks__button--remove:active {
+    background: #b81430;
+}
