@@ -14,3 +14,8 @@
 .section__body {
     padding: 25px;
 }
+
+.section__button {
+    display: flex;
+    justify-content: flex-end;
+}
